@@ -1,0 +1,47 @@
+body  {
+    margin   :  0  ; 
+    padding :  0 ; 
+
+}
+
+.main {
+    display : flex    ; 
+    flex-direction:  column    ;;
+    align-items: center    ;   
+    margin-top  :  10rem     ;
+    margin-left : auto ; 
+    margin-right : auto ; 
+    justify-content: space-evenly;
+    width    :   50%  ; 
+    border: solid  1px black   ; 
+    border-radius: 5px ;  
+    box-shadow: inset;
+    background-color: #ffffff;
+    padding   :   5px   ; 
+
+}
+
+
+
+.btns {
+    display: flex ; 
+    flex-direction :  row   ; 
+    padding :  1rem   ; 
+    gap :  2px   ; 
+
+    align-items: center ;
+    justify-content: space-around ;
+}
+
+.made {
+    color : #ffffff
+}
+
+@media screen  and  (max-width  : 700px  ) {
+
+    .main{
+        width :  70% ;  
+
+    }
+    
+}

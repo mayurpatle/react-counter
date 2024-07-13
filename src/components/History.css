@@ -1,0 +1,26 @@
+.hist  {
+    display : flex    ; 
+    flex-direction:  column    ;;
+    align-items: center    ;   
+    margin-top  :  10px    ;
+    margin-left : auto ; 
+    margin-right : auto ; 
+    justify-content: space-evenly;
+    width    :   50%  ; 
+    border: solid  1px black   ; 
+    border-radius: 5px ;  
+    box-shadow: inset;
+    background-color: #ffffff;
+    padding   :   5px   ; 
+    min-height: 10rem;
+
+}
+
+@media screen  and  (max-width  : 700px  ) {
+
+    .hist{
+        width :  70% ;  
+
+    }
+    
+}
